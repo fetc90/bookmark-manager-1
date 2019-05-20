@@ -8,4 +8,4 @@ So that I can see my regular sites
 I want to see a list of all my bookmarks
 ```
 
-![1](./images/domain_model.jpg)
+![domain_model](./images/domain_model.jpg)
