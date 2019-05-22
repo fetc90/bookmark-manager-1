@@ -16,7 +16,7 @@ BOOKMARK_LIST = ['https://www.google.co.uk', 'https://makers.tech']
     result.map do | bookmark | bookmark['url'] end
   end
 
-  def self.add(url)
+  def self.create(url:)
     if ENV['ENVIRONMENT'] == 'test'
       link = PG.connect( dbname: 'bookmark_manager_test' )
     else
