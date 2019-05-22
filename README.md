@@ -29,3 +29,9 @@ I would like to add the site's address and title to bookmark manager
 `rackup`
 
 To view bookmarks, navigate to `localhost:9292/bookmarks`.
+
+
+Object | Message
+-|-
+User
+Bookmark | Add

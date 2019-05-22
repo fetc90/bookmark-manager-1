@@ -2,7 +2,7 @@ require 'pg'
 
 def setup_test_database
 
-  p "setting up database...⏳"
+  p "setting up database...⏳ "
 
   link = PG.connect(dbname: 'bookmark_manager_test')
 

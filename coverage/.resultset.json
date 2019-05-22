@@ -1,7 +1,18 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/student/Projects/weekly-challenges/bookmark_manager/spec/bookmark_spec.rb": [
+      "/Users/francescachater/Projects/Makers/weekly_challenges/bookmark-manager-1/spec/add_bookmark_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/francescachater/Projects/Makers/weekly_challenges/bookmark-manager-1/spec/bookmark_spec.rb": [
         1,
         null,
         1,
@@ -23,7 +34,18 @@
         null,
         null
       ],
-      "/Users/student/Projects/weekly-challenges/bookmark_manager/spec/features/get_bookmarks_spec.rb": [
+      "/Users/francescachater/Projects/Makers/weekly_challenges/bookmark-manager-1/spec/features/add_bookmark_spec.rb": [
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/francescachater/Projects/Makers/weekly_challenges/bookmark-manager-1/spec/features/get_bookmarks_spec.rb": [
         1,
         null,
         1,
@@ -49,6 +71,6 @@
         null
       ]
     },
-    "timestamp": 1558459010
+    "timestamp": 1558534582
   }
 }
