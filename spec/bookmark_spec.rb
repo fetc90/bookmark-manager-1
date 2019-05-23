@@ -9,11 +9,10 @@ describe Bookmark do
       Bookmark.create(url: 'http://www.destroyallsoftware.com', title: 'Destroy All Software')
       Bookmark.create(url: 'http://www.google.com', title: 'Google')
 
-      bookmarks = Bookmark.all 
+      bookmarks = Bookmark.all
 
-      expect(bookmarks).to include 'Google'
-      expect(bookmarks).to include 'Makers Academy'
-      expect(bookmarks).to include 'Destroy All Software'
+      expect(bookmarks.first.title).to eq 'Makers Academy'
+      expect(bookmarks.last.title).to eq 'Google'
     end
   end
 end
