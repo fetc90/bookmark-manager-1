@@ -5,15 +5,15 @@ describe Bookmark do
   describe '#all' do
     it 'returns a list of all bookmarks' do
 
-      Bookmark.create('http://www.makersacademy.com')
-      Bookmark.create('http://www.destroyallsoftware.com')
-      Bookmark.create('http://www.google.com')
+      Bookmark.create(url: 'http://www.makersacademy.com', title: 'Makers Academy')
+      Bookmark.create(url: 'http://www.destroyallsoftware.com', title: 'Destroy All Software')
+      Bookmark.create(url: 'http://www.google.com', title: 'Google')
 
-      bookmarks = Bookmark.all
+      bookmarks = Bookmark.all 
 
-      expect(bookmarks).to include('http://www.google.com')
-      expect(bookmarks).to include('http://www.makersacademy.com')
-      expect(bookmarks).to include('http://www.destroyallsoftware.com')
+      expect(bookmarks).to include 'Google'
+      expect(bookmarks).to include 'Makers Academy'
+      expect(bookmarks).to include 'Destroy All Software'
     end
   end
 end
