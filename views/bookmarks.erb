@@ -4,10 +4,18 @@
 <input type="text" name="title" placeholder="title..."> </input>
 <button type="submit" name="add"> add </button>
 </form>
+
 </body>
 
 <ul>
 <% @bookmark_list.each do |bookmark| %>
-<li><a href="<%= bookmark.url %>" target="_blank"><%= bookmark.title %></a></li>
+<li class="bookmark" id="bookmark-<%= bookmark.id %>">
+  <a href="<%= bookmark.url %>" target="_blank"><%= bookmark.title %></a>
+<form action="/bookmarks/<%= bookmark.id %>" method ="post">
+  <input type='hidden' name='_method' value='DELETE' />
+  <input type="submit" value="Delete"/>
+  </form>
+ </li>
+
 <% end %>
 </ul>

@@ -16,8 +16,8 @@ require_relative '../app'
 require 'capybara/rspec'
 require 'simplecov'
 require 'simplecov-console'
-# require 'capybara'
-# require 'rspec'
+require 'capybara'
+require 'rspec'
 # require 'features/web_helpers.rb'
 
 # tell Capybara about our app class
